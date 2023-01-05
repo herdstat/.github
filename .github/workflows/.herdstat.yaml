@@ -6,7 +6,9 @@
 #
 
 on:
-  workflow_dispatch:
+  schedule:
+    # Runs every at midnight
+    - cron: '0 0 * * *'
 jobs:
   herdstat:
     runs-on: ubuntu-latest
