@@ -1,7 +1,6 @@
 # herdstat
 
-> **Warning**
-> `herdstat` is work in progress and neither feature complete nor tested thoroughly.
+> **Warning** `herdstat` is work in progress and neither feature complete nor tested thoroughly.
 
 `herdstat` is a tool for analyzing and visualizing metrics of Open Source projects hosted on GitHub. As of today its
 functionality is limited to generate GitHub-style contribution graphs for individual repository or complete GitHub
@@ -27,5 +26,5 @@ The [herdstat organization](https://github.com/herdstat) currently contains the 
 - [herdstat](https://github.com/herdstat/herdstat) hosts the `herdstat` CLI that implements most of herdstat's
   functionality.
 - [herdstat-action](https://github.com/herdstat/herdstat-action) contains the codebase for the `herdstat` GitHub action.
-- [herdstat-example](https://github.com/herdstat/herdstat-example) is a sample repository showcasing basic usage of
-  the `herdstat` GitHub action.
+- [herdstat-example](https://github.com/herdstat/herdstat-example) is a sample repository showcasing basic usage of the
+  `herdstat` GitHub action.
