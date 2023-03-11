@@ -10,6 +10,7 @@ verbose: true
 repositories:
   - herdstat
 
-filters:
-  commits:
-    - "Author.Name == 'github-actions' && Message matches 'Update contribution graph.*'"
+contribution-graph:
+  filters:
+    commits:
+      - "Author.Name == 'github-actions' && Message matches 'Update contribution graph.*'"
