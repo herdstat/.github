@@ -11,6 +11,7 @@ repositories:
   - herdstat
 
 contribution-graph:
+  filename: profile/contribution-graph.svg
   filters:
     commits:
       - "Author.Name == 'github-actions' && Message matches 'Update contribution graph.*'"
